@@ -1,0 +1,148 @@
+body{
+	background:linear-gradient(120deg ,#00aaff,#0044ff);
+	font-family:"segoe ui";
+	margin:0;
+	color:#333;
+	font-size:17px;
+}
+#container{
+	background:#fffffff8;
+	border-radius:10px;
+	padding:2em 1em 1em;
+	width:430px;
+	margin:2em auto 0 auto;
+	height:calc(100vh - 6em);
+	min-height:420px;
+	display:grid;
+	grid-template-rows:175px auto auto;
+	justify-items:center;
+	box-shadow:4px 4px 15px rgba(0,0,0,.2);
+}
+.head{
+	position:relative;
+	width:175px;
+	display:flex;
+	justify-content:center;
+}
+.head div{
+	border-radius:50%;
+	position:absolute;
+}
+.outl{
+	width:130px;
+	height:130px;
+	background:#66d6ff;
+	top:22px;
+	animation:outlScale 1.5s infinite;
+}
+.outl2{
+	background:#ccf1ff;
+	width:174px;
+	height:174px;
+	animation:outlScale2 1.5s infinite;
+}
+.avatar{
+	width:86px;
+	height:86px;
+	top:44px;
+	background:#fff url("../anh/67949346_1373735016116591_7339881212288172032_n.jpg") center/75% no-repeat;
+}
+@keyframes outlScale{
+	50%{
+		width:110px;
+		height:110px;
+		transform:translate(0,10px);
+	}
+}
+@keyframes outlScale2{
+	50%{
+		width:134px;
+		height:134px;
+		transform:translate(0,20px);
+	}
+}
+.main{
+	text-align:center;
+	font-weight:500;
+}
+.main h2{
+	font-weight:400;
+    margin:20px 0 0;
+    margin-bottom: 40px
+}
+.main p{
+	margin:0;
+    color:#ccc;
+    margin-bottom: 10px
+}
+.main p:nth-child(3){
+	margin:35px 0;
+	color:#00bbff;
+}
+.buttons button{
+	font-size:17px;
+	padding:10px;
+	width:130px;
+	border-radius:50px;
+	cursor:pointer;
+	margin:0 5px;
+	outline:0;
+}
+#confirm{
+	background:#00bbff;
+	border:0;
+	box-shadow:1px 7px 10px #00bbff50;
+	padding:11px;
+	color:#fff;
+}
+#confirm:hover{
+	background:linear-gradient(135deg, #00bbff, #0099ff);
+	box-shadow:1px 7px 10px #0099ff50;
+}
+#cancel{
+	background: #fff;
+	border:solid 1px #cccccca0;
+}
+#cancel:hover{
+	background:rgba(0,0,0,.02);
+}
+@media only screen and (max-height:550px){
+	.main p:nth-child(3){
+		margin:20px 0;
+	}
+}
+
+button{
+    color: white;
+    background-color: #66d6ff;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+button:hover,
+button:active{
+    background-color: rgba(107, 185, 240, 1);
+    transform: scale(1.2)
+}
+
+input{
+    border:  1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:hover,
+input:active{
+    transform: scale(1.2);
+    transition: all 1s
+}
+
+.pict img{
+    width: 150px;
+    border-radius: 15px
+}
+
+

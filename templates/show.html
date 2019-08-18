@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/girl.css">
+  <link rel="stylesheet" href="../static/css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+  <title>D18-chall</title>
+</head>
+
+<body>
+  <div class="headd">
+  <div class="logo">
+    <div class="head">
+      <div class="outl2"></div>
+      <div class="outl"></div>
+      <div class="avatar"></div>
+    </div>
+  </div>
+
+  <div class="checkpass">
+    <form method="POST">
+      <h3 class="box">Enter your number pass</h3>
+      <input class="e" type="number" name="key1">
+      <input class="e" type="number" name="key2">
+      <input class="e" type="number" name="key3">
+      <input class="e" type="number" name="key4">
+      <button>Submit</button>
+    </form>
+    {% if check == true%}
+    <h4>Key: f1n4l_ch4ll_d0n3</h4>
+    {%elif check== false%}
+    <h4>Error</h4>
+    {%endif%}
+  </div>
+  </div>
+
+  <div id="girls">
+    {%for item in girls%}
+    <div class="card middle">
+      <div class="front">
+        <img class="link" src="{{item.link}}" alt="">
+        <h3>{{item.name}}</h3>
+        <img class="count" src="{{item.count}}" alt="">
+      </div>
+      <div class="back">
+        <div class="back-content middle">
+          <h2 class="{{item.font}}">LOOK AT ME</h2>
+        </div>
+      </div>
+    </div>
+    {%endfor%}
+  </div>
+
+
+</body>
+
+</html>
