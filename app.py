@@ -27,72 +27,72 @@ def indexx():
 
 girls=[
     {"id":1,
-    "name":"Irene",
+    "name":"_rene",
     "link":"../static/girls/Irene.jpg",
-    "count":"../static/count/lucgiac.png",
+    "count":"1",
     "font":"false"
 },
 {
     "id":2,
     "name":"j_ssica",
     "link":"../static/girls/jessica.jpg",
-    "count":"../static/count/ngugiac.png",
+    "count":"3",
     "font":"true"
 },
 {
     "id":3,
     "name":"jis_o",
     "link":"../static/girls/jisoo.jpg",
-    "count":"../static/count/sao.png",
+    "count":"6",
     "font":"false"
 },
 {
     "id":4,
     "name":"Kyulkyun_",
     "link":"../static/girls/Kyulkyung.jpg",
-    "count":"../static/count/tamgiac.png",
+    "count":"1",
     "font":"true"
 },
 {
     "id":5,
     "name":"Ro_e",
     "link":"../static/girls/rose.jpg",
-    "count":"../static/count/tim.png",
+    "count":"3",
     "font":"false"
 },
 {
     "id":6,
     "name":"_ana",
     "link":"../static/girls/sana.jpg",
-    "count":"../static/count/tron.png",
+    "count":"4",
     "font":"true"
 },
 {
     "id":7,
     "name":"Se_lhyun",
     "link":"../static/girls/Seolhyun.jpg",
-    "count":"../static/count/tugiac.png",
+    "count":"5",
     "font":"false"
 },
 {
     "id":8,
     "name":"s_mi",
     "link":"../static/girls/somi.jpg",
-    "count":"../static/count/vuong.png",
+    "count":"2",
     "font":"true"
 },
 {
     "id":9,
     "name":"_zuyu",
-    "link":"../static/girls/tzuyu.jpg",
-    "count":"../static/count/ngugiac.png",
+    "link":"../static/girls/Tzuyu.jpg",
+    "count":"4",
     "font":"false"
 },
 {
     "id":10,
     "name":"yo_na",
     "link":"../static/girls/yoona.jpg",
-    "count":"../static/count/lucgiac.png",
+    "count":"2",
     "font":"false"
 }
 

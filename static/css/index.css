@@ -79,15 +79,6 @@ body{
 	margin:35px 0;
 	color:#00bbff;
 }
-.buttons button{
-	font-size:17px;
-	padding:10px;
-	width:130px;
-	border-radius:50px;
-	cursor:pointer;
-	margin:0 5px;
-	outline:0;
-}
 
 @media only screen and (max-height:550px){
 	.main p:nth-child(3){
@@ -104,6 +95,7 @@ button{
     margin-top: 20px;
 	margin-bottom: 20px;
 	transition: all 0.7s;
+	cursor: pointer;
 }
 
 button:hover,
