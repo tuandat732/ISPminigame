@@ -34,63 +34,63 @@ girls=[
 },
 {
     "id":2,
-    "name":"jessica",
+    "name":"j_ssica",
     "link":"../static/girls/jessica.jpg",
     "count":"../static/count/ngugiac.png",
     "font":"true"
 },
 {
     "id":3,
-    "name":"jisoo",
+    "name":"jis_o",
     "link":"../static/girls/jisoo.jpg",
     "count":"../static/count/sao.png",
     "font":"false"
 },
 {
     "id":4,
-    "name":"Kyulkyung",
+    "name":"Kyulkyun_",
     "link":"../static/girls/Kyulkyung.jpg",
     "count":"../static/count/tamgiac.png",
     "font":"true"
 },
 {
     "id":5,
-    "name":"Rose",
+    "name":"Ro_e",
     "link":"../static/girls/rose.jpg",
     "count":"../static/count/tim.png",
     "font":"false"
 },
 {
     "id":6,
-    "name":"Sana",
+    "name":"_ana",
     "link":"../static/girls/sana.jpg",
     "count":"../static/count/tron.png",
     "font":"true"
 },
 {
     "id":7,
-    "name":"Seolhyun",
+    "name":"Se_lhyun",
     "link":"../static/girls/Seolhyun.jpg",
     "count":"../static/count/tugiac.png",
     "font":"false"
 },
 {
     "id":8,
-    "name":"somi",
+    "name":"s_mi",
     "link":"../static/girls/somi.jpg",
     "count":"../static/count/vuong.png",
     "font":"true"
 },
 {
     "id":9,
-    "name":"Tzuyu",
+    "name":"_zuyu",
     "link":"../static/girls/tzuyu.jpg",
     "count":"../static/count/ngugiac.png",
     "font":"false"
 },
 {
     "id":10,
-    "name":"yoona",
+    "name":"yo_na",
     "link":"../static/girls/yoona.jpg",
     "count":"../static/count/lucgiac.png",
     "font":"false"
