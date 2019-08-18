@@ -81,15 +81,15 @@ girls=[
     "count":"2",
     "font":"true"
 },
+# {
+#     "id":9,
+#     "name":"_zuyu",
+#     "link":"../static/girls/Tzuyu.jpg",
+#     "count":"4",
+#     "font":"false"
+# },
 {
     "id":9,
-    "name":"_zuyu",
-    "link":"../static/girls/Tzuyu.jpg",
-    "count":"4",
-    "font":"false"
-},
-{
-    "id":10,
     "name":"yo_na",
     "link":"../static/girls/yoona.jpg",
     "count":"2",
